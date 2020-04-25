@@ -14,6 +14,7 @@ if [ -d "$PLDIR" ]; then rm -rf "$PLDIR"; fi
 
 # Install powerline10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git  "$PLDIR"
-echo ZSH_THEME=powerlevel10k/powerlevel10k >> ~/.zshrc
 
+echo ZSH_THEME=powerlevel10k/powerlevel10k >> ~/.zshrc
+echo [[ ! -f ~/setup_terminal/custom_commands ]] || source  ~/setup_terminal/custom_commands >> ~/.zshrc
 

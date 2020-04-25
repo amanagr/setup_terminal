@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+
+alias edit_wt_settings="vim C:\Users\Aman Agrawal\AppData\Local\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json"
+

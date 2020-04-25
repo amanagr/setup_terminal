@@ -1,0 +1,4 @@
+git config --global core.editor vim
+git config --global user.email "f2016561@pilani.bits-pilani.ac.in"
+git config --global user.name "Aman Agrawal"
+

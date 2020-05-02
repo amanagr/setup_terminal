@@ -4,7 +4,9 @@ alias zp="source /srv/zulip-py3-venv/bin/activate && cd ~/zulip"
 alias zt="source ~/zulip-terminal-venv/bin/activate && cd ~/zulip-terminal"
 alias zl="source ~/zulint_env/bin/activate && cd ~/zulint"
 
+
 alias remote_start="gcloud compute instances start instance-1 --zone asia-south1-c"
 alias ssh_remote=" gcloud compute ssh instance-1 --zone asia-south1-c"
 alias remote_stop="gcloud compute instances stop instance-1 --zone asia-south1-c"
 
+alias zssh="mosh  zulipdev@amanagr.zulipdev.org"

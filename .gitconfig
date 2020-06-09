@@ -1,0 +1,15 @@
+[core]
+	editor = vim
+[user]
+	email = amanagr@zulip.com
+	name = Aman Agrawal
+
+[diff]
+	        colorMovedWS = allow-indentation-change
+		colorMoved = default	
+[color "diff"]
+		oldMoved = "#ff0077 #222222"
+		oldMovedAlternative = "#ff3322 #222a00"
+		newMoved = "#00cc77 #222222"
+		newMovedAlternative = "#66aa00 #222a00"
+
